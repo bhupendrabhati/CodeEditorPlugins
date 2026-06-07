@@ -16,7 +16,7 @@
     "url": "https://github.com/bhupendrabhati/CodeEditorPlugins"
   },
 
-  "license": "NONE",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
   },

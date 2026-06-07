@@ -124,5 +124,5 @@ MIT
 
 Bhupendra Bhati
 
-- LinkedIn: https://www.linkedin.com/in/your-linkedin-profile/
-- GitHub: https://github.com/your-github
+- LinkedIn: https://www.linkedin.com/in/bhupendrabhati/
+- GitHub: https://github.com/bhupendrabhati/CodeEditorPlugins
