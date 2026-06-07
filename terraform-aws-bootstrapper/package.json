@@ -1,0 +1,74 @@
+{
+  "name": "terraform-aws-bootstrapper",
+  "displayName": "Terraform AWS Bootstrapper",
+  "description": "Generate complete Terraform projects for AWS infrastructure with VPC, EC2, S3 backend, and more",
+  "version": "1.0.0",
+  "publisher": "BhupendraBhati",
+  "icon": "images/icon.png",
+  "author": {
+    "name": "Bhupendra Bhati",
+    "url": "https://www.linkedin.com/in/bhupendrabhati/"
+  },
+  "homepage": "https://github.com/myrepo/terraform-aws-bootstrapper",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/terraform-aws-bootstrapper"
+  },
+
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+
+  "keywords": [
+  "terraform",
+  "aws",
+  "devops",
+  "infrastructure",
+  "iac",
+  "cloud",
+  "ec2",
+  "vpc"
+  ],
+
+  "categories": [
+    "Other",
+    "Cloud"
+  ],
+  "activationEvents": [
+	  "onCommand:terraform-aws-bootstrapper.generateProject"
+	],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "terraform-aws-bootstrapper.generateProject",
+        "title": "Terraform AWS Bootstrapper: Generate Project"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  }
+}
