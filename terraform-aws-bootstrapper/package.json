@@ -9,14 +9,14 @@
     "name": "Bhupendra Bhati",
     "url": "https://www.linkedin.com/in/bhupendrabhati/"
   },
-  "homepage": "https://github.com/myrepo/terraform-aws-bootstrapper",
+  "homepage": "https://github.com/bhupendrabhati/CodeEditorPlugins",
   
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/terraform-aws-bootstrapper"
+    "url": "https://github.com/bhupendrabhati/CodeEditorPlugins"
   },
 
-  "license": "MIT",
+  "license": "NONE",
   "engines": {
     "vscode": "^1.85.0"
   },
